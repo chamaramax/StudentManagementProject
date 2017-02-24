@@ -64,7 +64,6 @@
     <Compile Include="curpannavi.Designer.cs">
       <DependentUpon>curpannavi.cs</DependentUpon>
     </Compile>
-    <Compile Include="DBM.cs" />
     <Compile Include="extrinstitute.cs">
       <SubType>Form</SubType>
     </Compile>

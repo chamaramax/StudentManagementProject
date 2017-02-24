@@ -1,3 +1,2 @@
 C:\Users\Asus\Desktop\student management system\student management system\student management system\bin\Debug\student management system.exe.config
 I:\project\student management system\student management system\student management system\bin\Debug\student management system.exe.config
-D:\Git\StudentManagementProject\student management system\bin\Debug\student management system.exe.config
