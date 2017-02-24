@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E5187A98-5A30-4F6F-8031-00F8FADBAC86}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>student_management_system</RootNamespace>
+    <AssemblyName>student management system</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Approval Details Navigation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Approval Details Navigation.Designer.cs">
+      <DependentUpon>Approval Details Navigation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="curpanentering.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="curpanentering.Designer.cs">
+      <DependentUpon>curpanentering.cs</DependentUpon>
+    </Compile>
+    <Compile Include="curpannavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="curpannavi.Designer.cs">
+      <DependentUpon>curpannavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="extrinstitute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="extrinstitute.Designer.cs">
+      <DependentUpon>extrinstitute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="extrinstitutenavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="extrinstitutenavi.Designer.cs">
+      <DependentUpon>extrinstitutenavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="extraregisnavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="extraregisnavi.Designer.cs">
+      <DependentUpon>extraregisnavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="extraregis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="extraregis.Designer.cs">
+      <DependentUpon>extraregis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CuriPanAttEntScr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CuriPanAttEntScr.Designer.cs">
+      <DependentUpon>CuriPanAttEntScr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CuriPanAttEntScrNavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CuriPanAttEntScrNavi.Designer.cs">
+      <DependentUpon>CuriPanAttEntScrNavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Approval Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Approval Details.Designer.cs">
+      <DependentUpon>Approval Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Batch Details Entering.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Batch Details Entering.Designer.cs">
+      <DependentUpon>Batch Details Entering.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatchDeNavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BatchDeNavi.Designer.cs">
+      <DependentUpon>BatchDeNavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CouPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CouPayment.Designer.cs">
+      <DependentUpon>CouPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CouPaymentNavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CouPaymentNavi.Designer.cs">
+      <DependentUpon>CouPaymentNavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssessorDet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssessorDet.Designer.cs">
+      <DependentUpon>AssessorDet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssessorDetNavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssessorDetNavi.Designer.cs">
+      <DependentUpon>AssessorDetNavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssAtt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssAtt.Designer.cs">
+      <DependentUpon>AssAtt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssAttNavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssAttNavi.Designer.cs">
+      <DependentUpon>AssAttNavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CertiDet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CertiDet.Designer.cs">
+      <DependentUpon>CertiDet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CertiDetNavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CertiDetNavi.Designer.cs">
+      <DependentUpon>CertiDetNavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssPay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssPay.Designer.cs">
+      <DependentUpon>AssPay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssPayNavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssPayNavi.Designer.cs">
+      <DependentUpon>AssPayNavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CouModDet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CouModDet.Designer.cs">
+      <DependentUpon>CouModDet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CouModDetNavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CouModDetNavi.Designer.cs">
+      <DependentUpon>CouModDetNavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BondSiDet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BondSiDet.Designer.cs">
+      <DependentUpon>BondSiDet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BondSiDetNavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BondSiDetNavi.Designer.cs">
+      <DependentUpon>BondSiDetNavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExternalInsPay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExternalInsPay.Designer.cs">
+      <DependentUpon>ExternalInsPay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExternalInsPayNavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExternalInsPayNavi.Designer.cs">
+      <DependentUpon>ExternalInsPayNavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CouDirReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CouDirReg.Designer.cs">
+      <DependentUpon>CouDirReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CouDirRegNavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CouDirRegNavi.Designer.cs">
+      <DependentUpon>CouDirRegNavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CouDirAss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CouDirAss.Designer.cs">
+      <DependentUpon>CouDirAss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CouDirAssNavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CouDirAssNavi.Designer.cs">
+      <DependentUpon>CouDirAssNavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelMemDet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelMemDet.Designer.cs">
+      <DependentUpon>PanelMemDet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelMemDetNavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelMemDetNavi.Designer.cs">
+      <DependentUpon>PanelMemDetNavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResPerPayNavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResPerPayNavi.Designer.cs">
+      <DependentUpon>ResPerPayNavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResPerPay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResPerPay.Designer.cs">
+      <DependentUpon>ResPerPay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResultDetNavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultDetNavi.Designer.cs">
+      <DependentUpon>ResultDetNavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResultDet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultDet.Designer.cs">
+      <DependentUpon>ResultDet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TraineeAtt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TraineeAtt.Designer.cs">
+      <DependentUpon>TraineeAtt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TraineeAttNavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TraineeAttNavi.Designer.cs">
+      <DependentUpon>TraineeAttNavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResourcePersonAttndNavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResourcePersonAttndNavi.Designer.cs">
+      <DependentUpon>ResourcePersonAttndNavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResourcePersonAttend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResourcePersonAttend.Designer.cs">
+      <DependentUpon>ResourcePersonAttend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResPerDet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResPerDet.Designer.cs">
+      <DependentUpon>ResPerDet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResPerDetNvi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResPerDetNvi.Designer.cs">
+      <DependentUpon>ResPerDetNvi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mddlentrnavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mddlentrnavi.Designer.cs">
+      <DependentUpon>mddlentrnavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mdldenter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mdldenter.Designer.cs">
+      <DependentUpon>mdldenter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newTrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newTrade.Designer.cs">
+      <DependentUpon>newTrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newTradenavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newTradenavi.Designer.cs">
+      <DependentUpon>newTradenavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itpdevelopment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itpdevelopment.Designer.cs">
+      <DependentUpon>itpdevelopment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itpdevnavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>itpdevnavi.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itreg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itreg.Designer.cs">
+      <DependentUpon>itreg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itregnavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itregnavi.Designer.cs">
+      <DependentUpon>itregnavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewTraineeNav.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewTraineeNav.Designer.cs">
+      <DependentUpon>NewTraineeNav.cs</DependentUpon>
+    </Compile>
+    <Compile Include="onjbtraining.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="onjbtraining.Designer.cs">
+      <DependentUpon>onjbtraining.cs</DependentUpon>
+    </Compile>
+    <Compile Include="onjbtrainingnavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="onjbtrainingnavi.Designer.cs">
+      <DependentUpon>onjbtrainingnavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="onjbtrreg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="onjbtrreg.Designer.cs">
+      <DependentUpon>onjbtrreg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="onjbtrregnavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="onjbtrregnavi.Designer.cs">
+      <DependentUpon>onjbtrregnavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>testDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="trdtstregcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trdtstregcs.Designer.cs">
+      <DependentUpon>trdtstregcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="trdtstregnavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trdtstregnavi.Designer.cs">
+      <DependentUpon>trdtstregnavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WelCome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WelCome.Designer.cs">
+      <DependentUpon>WelCome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewTraineeRE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewTraineeRE.Designer.cs">
+      <DependentUpon>NewTraineeRE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Approval Details Navigation.resx">
+      <DependentUpon>Approval Details Navigation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CouPaymentNavi.resx">
+      <DependentUpon>CouPaymentNavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="curpanentering.resx">
+      <DependentUpon>curpanentering.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="curpannavi.resx">
+      <DependentUpon>curpannavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="extrinstitute.resx">
+      <DependentUpon>extrinstitute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="extrinstitutenavi.resx">
+      <DependentUpon>extrinstitutenavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="extraregisnavi.resx">
+      <DependentUpon>extraregisnavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="extraregis.resx">
+      <DependentUpon>extraregis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CuriPanAttEntScr.resx">
+      <DependentUpon>CuriPanAttEntScr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CuriPanAttEntScrNavi.resx">
+      <DependentUpon>CuriPanAttEntScrNavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Approval Details.resx">
+      <DependentUpon>Approval Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Batch Details Entering.resx">
+      <DependentUpon>Batch Details Entering.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatchDeNavi.resx">
+      <DependentUpon>BatchDeNavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CouPayment.resx">
+      <DependentUpon>CouPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssessorDet.resx">
+      <DependentUpon>AssessorDet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssessorDetNavi.resx">
+      <DependentUpon>AssessorDetNavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssAtt.resx">
+      <DependentUpon>AssAtt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssAttNavi.resx">
+      <DependentUpon>AssAttNavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CertiDet.resx">
+      <DependentUpon>CertiDet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CertiDetNavi.resx">
+      <DependentUpon>CertiDetNavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssPay.resx">
+      <DependentUpon>AssPay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssPayNavi.resx">
+      <DependentUpon>AssPayNavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CouModDet.resx">
+      <DependentUpon>CouModDet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CouModDetNavi.resx">
+      <DependentUpon>CouModDetNavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BondSiDet.resx">
+      <DependentUpon>BondSiDet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BondSiDetNavi.resx">
+      <DependentUpon>BondSiDetNavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExternalInsPay.resx">
+      <DependentUpon>ExternalInsPay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExternalInsPayNavi.resx">
+      <DependentUpon>ExternalInsPayNavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CouDirReg.resx">
+      <DependentUpon>CouDirReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CouDirRegNavi.resx">
+      <DependentUpon>CouDirRegNavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CouDirAss.resx">
+      <DependentUpon>CouDirAss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CouDirAssNavi.resx">
+      <DependentUpon>CouDirAssNavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelMemDet.resx">
+      <DependentUpon>PanelMemDet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelMemDetNavi.resx">
+      <DependentUpon>PanelMemDetNavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResPerPayNavi.resx">
+      <DependentUpon>ResPerPayNavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResPerPay.resx">
+      <DependentUpon>ResPerPay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultDetNavi.resx">
+      <DependentUpon>ResultDetNavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultDet.resx">
+      <DependentUpon>ResultDet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraineeAtt.resx">
+      <DependentUpon>TraineeAtt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraineeAttNavi.resx">
+      <DependentUpon>TraineeAttNavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourcePersonAttndNavi.resx">
+      <DependentUpon>ResourcePersonAttndNavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourcePersonAttend.resx">
+      <DependentUpon>ResourcePersonAttend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResPerDet.resx">
+      <DependentUpon>ResPerDet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResPerDetNvi.resx">
+      <DependentUpon>ResPerDetNvi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mddlentrnavi.resx">
+      <DependentUpon>mddlentrnavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mdldenter.resx">
+      <DependentUpon>mdldenter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newTradenavi.resx">
+      <DependentUpon>newTradenavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itpdevelopment.resx">
+      <DependentUpon>itpdevelopment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itpdevnavi.resx">
+      <DependentUpon>itpdevnavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itreg.resx">
+      <DependentUpon>itreg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itregnavi.resx">
+      <DependentUpon>itregnavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newTrade.resx">
+      <DependentUpon>newTrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewTraineeNav.resx">
+      <DependentUpon>NewTraineeNav.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="onjbtraining.resx">
+      <DependentUpon>onjbtraining.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="onjbtrainingnavi.resx">
+      <DependentUpon>onjbtrainingnavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="onjbtrreg.resx">
+      <DependentUpon>onjbtrreg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="onjbtrregnavi.resx">
+      <DependentUpon>onjbtrregnavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trdtstregcs.resx">
+      <DependentUpon>trdtstregcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trdtstregnavi.resx">
+      <DependentUpon>trdtstregnavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WelCome.resx">
+      <DependentUpon>WelCome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewTraineeRE.resx">
+      <DependentUpon>NewTraineeRE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="testDataSet.xsc">
+      <DependentUpon>testDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="testDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>testDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="testDataSet.xss">
+      <DependentUpon>testDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
