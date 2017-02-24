@@ -21,5 +21,12 @@ namespace student_management_system
         {
 
         }
+
+        private void traineeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            NewTraineerREForm trg = new NewTraineerREForm();
+            trg.Show();
+            this.Hide();
+        }
     }
 }
