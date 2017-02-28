@@ -1,2 +1,72 @@
 C:\Users\Asus\Desktop\student management system\student management system\student management system\bin\Debug\student management system.exe.config
 I:\project\student management system\student management system\student management system\bin\Debug\student management system.exe.config
+C:\Users\chamara sandeepa\Downloads\Compressed\student management system\student management system\student management system\bin\Debug\student management system.exe.config
+D:\Git\StudentManagementProject\student management system\bin\Debug\student management system.exe.config
+D:\Git\StudentManagementProject\student management system\bin\Debug\student management system.exe
+D:\Git\StudentManagementProject\student management system\bin\Debug\student management system.pdb
+D:\Git\StudentManagementProject\student management system\obj\Debug\student management system.csprojResolveAssemblyReference.cache
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.frm_aprvldetailsnavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.CouPaymentNavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.curpanentering.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.curpannavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.extrnltrinsreg.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.extrnltrinsnavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.extrtraregnavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.txt_comdate.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.CuriPanAttEntScr.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.CuriPanAttEntScrNavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.Frm_aprvldetails.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.frm_batchdetails.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.BatchDeNavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.CouPayment.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.AssessorDet.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.AssessorDetNavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.AssAtt.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.AssAttNavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.CertiDet.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.Form2.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.AssPay.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.AssPayNavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.CouModDet.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.CouModDetNavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.BondSiDet.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.BondSiDetNavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.ExternalInsPay.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.ExternalInsPayNavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.CouDirReg.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.CouDirRegNavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.CouDirAss.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.CouDirAssNavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.PanelMemDet.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.PanelMemDetNavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.ResPerPayNavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.Form1.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.ResultDetNavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.ResultDet.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.TraineeAtt.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.TraineeAttNavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.Frm_resrceprsonatdnavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.respersonatten.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.ResPerDet.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.ResPerDetNvi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.mddlentrnavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.mdldenter.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.newTradenavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.frm_itpdevelopment.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.frm_itpdevnavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.frm_itreg.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.frm_itregnavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.newTrade.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.frm_newtraineenav.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.frm_onjbtraining.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.onjbtrainingnavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.frm_onjbtrreg.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.frm_onjbtrregnavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.trdtstregcs.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.trdtstregnavi.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.WelCome.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.frm_newtraregnav.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.Properties.Resources.resources
+D:\Git\StudentManagementProject\student management system\obj\Debug\student management system.csproj.GenerateResource.Cache
+D:\Git\StudentManagementProject\student management system\obj\Debug\student management system.exe
+D:\Git\StudentManagementProject\student management system\obj\Debug\student management system.pdb

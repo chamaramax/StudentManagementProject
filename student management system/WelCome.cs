@@ -24,8 +24,8 @@ namespace student_management_system
 
         private void traineeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            NewTraineerREForm trg = new NewTraineerREForm();
-            trg.Show();
+            frm_newtraregnav ntr = new frm_newtraregnav();
+            ntr.Show();
             this.Hide();
         }
     }

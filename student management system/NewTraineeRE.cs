@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace student_management_system
 {
-    public partial class NewTraineerREForm : Form
+    public partial class frm_newtraregnav : Form
     {
-        public NewTraineerREForm()
+        public frm_newtraregnav()
         {
             InitializeComponent();
         }

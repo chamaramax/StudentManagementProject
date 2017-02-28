@@ -64,7 +64,6 @@
     <Compile Include="curpannavi.Designer.cs">
       <DependentUpon>curpannavi.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dbmanager.cs" />
     <Compile Include="extrinstitute.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -413,7 +412,9 @@
     <Compile Include="WelCome.Designer.cs">
       <DependentUpon>WelCome.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewTraineeRE.cs" />
+    <Compile Include="NewTraineeRE.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="NewTraineeRE.Designer.cs">
       <DependentUpon>NewTraineeRE.cs</DependentUpon>
     </Compile>
