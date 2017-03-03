@@ -55,99 +55,110 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(366, 52);
+            this.label1.Location = new System.Drawing.Point(274, 42);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(231, 17);
+            this.label1.Size = new System.Drawing.Size(171, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "External Training Registration Form";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(209, 218);
+            this.label2.Location = new System.Drawing.Point(157, 177);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 17);
+            this.label2.Size = new System.Drawing.Size(75, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Institute Name";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(207, 414);
+            this.label3.Location = new System.Drawing.Point(155, 336);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(112, 17);
+            this.label3.Size = new System.Drawing.Size(86, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "Commence Date";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(209, 372);
+            this.label6.Location = new System.Drawing.Point(157, 302);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(118, 17);
+            this.label6.Size = new System.Drawing.Size(89, 13);
             this.label6.TabIndex = 5;
             this.label6.Text = "Registration Date";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(209, 298);
+            this.label7.Location = new System.Drawing.Point(157, 242);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(81, 17);
+            this.label7.Size = new System.Drawing.Size(61, 13);
             this.label7.TabIndex = 6;
             this.label7.Text = "Course Fee";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(209, 336);
+            this.label8.Location = new System.Drawing.Point(157, 273);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(62, 17);
+            this.label8.Size = new System.Drawing.Size(47, 13);
             this.label8.TabIndex = 7;
             this.label8.Text = "Duration";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(209, 260);
+            this.label9.Location = new System.Drawing.Point(157, 211);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(94, 17);
+            this.label9.Size = new System.Drawing.Size(71, 13);
             this.label9.TabIndex = 8;
             this.label9.Text = "Course Name";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(207, 183);
+            this.label10.Location = new System.Drawing.Point(155, 149);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(74, 17);
+            this.label10.Size = new System.Drawing.Size(57, 13);
             this.label10.TabIndex = 9;
             this.label10.Text = "Trainee ID";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(207, 462);
+            this.label11.Location = new System.Drawing.Point(155, 375);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(64, 17);
+            this.label11.Size = new System.Drawing.Size(49, 13);
             this.label11.TabIndex = 10;
             this.label11.Text = "Approval";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(149, 121);
+            this.label12.Location = new System.Drawing.Point(112, 98);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(195, 17);
+            this.label12.Size = new System.Drawing.Size(145, 13);
             this.label12.TabIndex = 11;
             this.label12.Text = "External Training Registration";
             // 
             // chk_hod
             // 
             this.chk_hod.AutoSize = true;
-            this.chk_hod.Location = new System.Drawing.Point(410, 462);
+            this.chk_hod.Location = new System.Drawing.Point(308, 375);
+            this.chk_hod.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chk_hod.Name = "chk_hod";
-            this.chk_hod.Size = new System.Drawing.Size(133, 21);
+            this.chk_hod.Size = new System.Drawing.Size(104, 17);
             this.chk_hod.TabIndex = 12;
             this.chk_hod.Text = "Head of Division";
             this.chk_hod.UseVisualStyleBackColor = true;
@@ -155,9 +166,10 @@
             // chk_ctm
             // 
             this.chk_ctm.AutoSize = true;
-            this.chk_ctm.Location = new System.Drawing.Point(410, 489);
+            this.chk_ctm.Location = new System.Drawing.Point(308, 397);
+            this.chk_ctm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chk_ctm.Name = "chk_ctm";
-            this.chk_ctm.Size = new System.Drawing.Size(178, 21);
+            this.chk_ctm.Size = new System.Drawing.Size(136, 17);
             this.chk_ctm.TabIndex = 13;
             this.chk_ctm.Text = "Chief Training Manager";
             this.chk_ctm.UseVisualStyleBackColor = true;
@@ -165,85 +177,96 @@
             // chk_gc
             // 
             this.chk_gc.AutoSize = true;
-            this.chk_gc.Location = new System.Drawing.Point(410, 516);
+            this.chk_gc.Location = new System.Drawing.Point(308, 419);
+            this.chk_gc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chk_gc.Name = "chk_gc";
-            this.chk_gc.Size = new System.Drawing.Size(146, 21);
+            this.chk_gc.Size = new System.Drawing.Size(113, 17);
             this.chk_gc.TabIndex = 14;
             this.chk_gc.Text = "Governing Council";
             this.chk_gc.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(619, 575);
+            this.button1.Location = new System.Drawing.Point(464, 467);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(131, 33);
+            this.button1.Size = new System.Drawing.Size(98, 27);
             this.button1.TabIndex = 15;
             this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(767, 575);
+            this.button2.Location = new System.Drawing.Point(575, 467);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(125, 33);
+            this.button2.Size = new System.Drawing.Size(94, 27);
             this.button2.TabIndex = 16;
             this.button2.Text = "Close";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // txt_tid
             // 
-            this.txt_tid.Location = new System.Drawing.Point(410, 178);
+            this.txt_tid.Location = new System.Drawing.Point(308, 145);
+            this.txt_tid.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_tid.Name = "txt_tid";
-            this.txt_tid.Size = new System.Drawing.Size(178, 22);
+            this.txt_tid.Size = new System.Drawing.Size(134, 20);
             this.txt_tid.TabIndex = 17;
             // 
             // txt_instname
             // 
-            this.txt_instname.Location = new System.Drawing.Point(410, 218);
+            this.txt_instname.Location = new System.Drawing.Point(308, 177);
+            this.txt_instname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_instname.Name = "txt_instname";
-            this.txt_instname.Size = new System.Drawing.Size(473, 22);
+            this.txt_instname.Size = new System.Drawing.Size(356, 20);
             this.txt_instname.TabIndex = 18;
             // 
             // txt_cosname
             // 
-            this.txt_cosname.Location = new System.Drawing.Point(410, 260);
+            this.txt_cosname.Location = new System.Drawing.Point(308, 211);
+            this.txt_cosname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_cosname.Name = "txt_cosname";
-            this.txt_cosname.Size = new System.Drawing.Size(473, 22);
+            this.txt_cosname.Size = new System.Drawing.Size(356, 20);
             this.txt_cosname.TabIndex = 19;
             // 
             // txt_cosfee
             // 
-            this.txt_cosfee.Location = new System.Drawing.Point(410, 298);
+            this.txt_cosfee.Location = new System.Drawing.Point(308, 242);
+            this.txt_cosfee.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_cosfee.Name = "txt_cosfee";
-            this.txt_cosfee.Size = new System.Drawing.Size(178, 22);
+            this.txt_cosfee.Size = new System.Drawing.Size(134, 20);
             this.txt_cosfee.TabIndex = 20;
             // 
             // txt_cdate
             // 
-            this.txt_cdate.Location = new System.Drawing.Point(410, 414);
+            this.txt_cdate.Location = new System.Drawing.Point(308, 336);
+            this.txt_cdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_cdate.Name = "txt_cdate";
-            this.txt_cdate.Size = new System.Drawing.Size(178, 22);
+            this.txt_cdate.Size = new System.Drawing.Size(134, 20);
             this.txt_cdate.TabIndex = 21;
             // 
             // txt_regdate
             // 
-            this.txt_regdate.Location = new System.Drawing.Point(410, 372);
+            this.txt_regdate.Location = new System.Drawing.Point(308, 302);
+            this.txt_regdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_regdate.Name = "txt_regdate";
-            this.txt_regdate.Size = new System.Drawing.Size(178, 22);
+            this.txt_regdate.Size = new System.Drawing.Size(134, 20);
             this.txt_regdate.TabIndex = 22;
             // 
             // txt_dura
             // 
-            this.txt_dura.Location = new System.Drawing.Point(410, 336);
+            this.txt_dura.Location = new System.Drawing.Point(308, 273);
+            this.txt_dura.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_dura.Name = "txt_dura";
-            this.txt_dura.Size = new System.Drawing.Size(178, 22);
+            this.txt_dura.Size = new System.Drawing.Size(134, 20);
             this.txt_dura.TabIndex = 23;
             // 
             // txt_comdate
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1039, 649);
+            this.ClientSize = new System.Drawing.Size(779, 527);
             this.Controls.Add(this.txt_dura);
             this.Controls.Add(this.txt_regdate);
             this.Controls.Add(this.txt_cdate);
@@ -266,6 +289,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "txt_comdate";
             this.Text = "External Training Registration ";
             this.ResumeLayout(false);

@@ -16,5 +16,11 @@ namespace student_management_system
         {
             InitializeComponent();
         }
+
+        private void frm_itreg_Load(object sender, EventArgs e)
+        {
+           
+
+ }
     }
 }

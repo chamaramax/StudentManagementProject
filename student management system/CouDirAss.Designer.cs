@@ -106,6 +106,7 @@
             this.btn_sav.TabIndex = 15;
             this.btn_sav.Text = "Save ";
             this.btn_sav.UseVisualStyleBackColor = true;
+            this.btn_sav.Click += new System.EventHandler(this.btn_sav_Click);
             // 
             // lbl_streamcode
             // 
@@ -163,7 +164,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(534, 283);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "CouDirAss";
             this.Text = "Course Director Assigning";
             this.panel1.ResumeLayout(false);

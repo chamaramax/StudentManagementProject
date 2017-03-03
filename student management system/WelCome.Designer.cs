@@ -119,18 +119,21 @@
             this.courseToolStripMenuItem.Name = "courseToolStripMenuItem";
             this.courseToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.courseToolStripMenuItem.Text = "Course";
+            this.courseToolStripMenuItem.Click += new System.EventHandler(this.courseToolStripMenuItem_Click);
             // 
             // assessorToolStripMenuItem2
             // 
             this.assessorToolStripMenuItem2.Name = "assessorToolStripMenuItem2";
             this.assessorToolStripMenuItem2.Size = new System.Drawing.Size(161, 22);
             this.assessorToolStripMenuItem2.Text = "Assessor";
+            this.assessorToolStripMenuItem2.Click += new System.EventHandler(this.assessorToolStripMenuItem2_Click);
             // 
             // resourcePersonToolStripMenuItem2
             // 
             this.resourcePersonToolStripMenuItem2.Name = "resourcePersonToolStripMenuItem2";
             this.resourcePersonToolStripMenuItem2.Size = new System.Drawing.Size(161, 22);
             this.resourcePersonToolStripMenuItem2.Text = "Resource Person";
+            this.resourcePersonToolStripMenuItem2.Click += new System.EventHandler(this.resourcePersonToolStripMenuItem2_Click);
             // 
             // externalInstituteToolStripMenuItem1
             // 
@@ -326,6 +329,7 @@
             this.externalInstituteToolStripMenuItem.Name = "externalInstituteToolStripMenuItem";
             this.externalInstituteToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.externalInstituteToolStripMenuItem.Text = "External Institute";
+            this.externalInstituteToolStripMenuItem.Click += new System.EventHandler(this.externalInstituteToolStripMenuItem_Click);
             // 
             // menuStrip1
             // 
@@ -393,18 +397,21 @@
             this.newTradeTestToolStripMenuItem.Name = "newTradeTestToolStripMenuItem";
             this.newTradeTestToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.newTradeTestToolStripMenuItem.Text = "New Trade Test";
+            this.newTradeTestToolStripMenuItem.Click += new System.EventHandler(this.newTradeTestToolStripMenuItem_Click);
             // 
             // newOnTheJobTrainingToolStripMenuItem
             // 
             this.newOnTheJobTrainingToolStripMenuItem.Name = "newOnTheJobTrainingToolStripMenuItem";
             this.newOnTheJobTrainingToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.newOnTheJobTrainingToolStripMenuItem.Text = "New On the Job Training";
+            this.newOnTheJobTrainingToolStripMenuItem.Click += new System.EventHandler(this.newOnTheJobTrainingToolStripMenuItem_Click);
             // 
             // newCourseDirectorToolStripMenuItem
             // 
             this.newCourseDirectorToolStripMenuItem.Name = "newCourseDirectorToolStripMenuItem";
             this.newCourseDirectorToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.newCourseDirectorToolStripMenuItem.Text = "New Course Director";
+            this.newCourseDirectorToolStripMenuItem.Click += new System.EventHandler(this.newCourseDirectorToolStripMenuItem_Click);
             // 
             // newStreamToolStripMenuItem
             // 
@@ -447,30 +454,35 @@
             this.tradeTestToolStripMenuItem.Name = "tradeTestToolStripMenuItem";
             this.tradeTestToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
             this.tradeTestToolStripMenuItem.Text = "Trade Test";
+            this.tradeTestToolStripMenuItem.Click += new System.EventHandler(this.tradeTestToolStripMenuItem_Click);
             // 
             // onTheJobTrainingToolStripMenuItem
             // 
             this.onTheJobTrainingToolStripMenuItem.Name = "onTheJobTrainingToolStripMenuItem";
             this.onTheJobTrainingToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
             this.onTheJobTrainingToolStripMenuItem.Text = "On the Job Training";
+            this.onTheJobTrainingToolStripMenuItem.Click += new System.EventHandler(this.onTheJobTrainingToolStripMenuItem_Click);
             // 
             // internalTrainingRegistrationToolStripMenuItem
             // 
             this.internalTrainingRegistrationToolStripMenuItem.Name = "internalTrainingRegistrationToolStripMenuItem";
             this.internalTrainingRegistrationToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
             this.internalTrainingRegistrationToolStripMenuItem.Text = "Internal Training Registration";
+            this.internalTrainingRegistrationToolStripMenuItem.Click += new System.EventHandler(this.internalTrainingRegistrationToolStripMenuItem_Click);
             // 
             // resourcePersonToolStripMenuItem
             // 
             this.resourcePersonToolStripMenuItem.Name = "resourcePersonToolStripMenuItem";
             this.resourcePersonToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
             this.resourcePersonToolStripMenuItem.Text = "Resource Person";
+            this.resourcePersonToolStripMenuItem.Click += new System.EventHandler(this.resourcePersonToolStripMenuItem_Click);
             // 
             // assessorToolStripMenuItem
             // 
             this.assessorToolStripMenuItem.Name = "assessorToolStripMenuItem";
             this.assessorToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
             this.assessorToolStripMenuItem.Text = "Assessor";
+            this.assessorToolStripMenuItem.Click += new System.EventHandler(this.assessorToolStripMenuItem_Click);
             // 
             // streamOfTrainingToolStripMenuItem
             // 
@@ -483,18 +495,21 @@
             this.courseDirectorToolStripMenuItem.Name = "courseDirectorToolStripMenuItem";
             this.courseDirectorToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
             this.courseDirectorToolStripMenuItem.Text = "Course Director";
+            this.courseDirectorToolStripMenuItem.Click += new System.EventHandler(this.courseDirectorToolStripMenuItem_Click);
             // 
             // externalTrainingInsitituteToolStripMenuItem
             // 
             this.externalTrainingInsitituteToolStripMenuItem.Name = "externalTrainingInsitituteToolStripMenuItem";
             this.externalTrainingInsitituteToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
             this.externalTrainingInsitituteToolStripMenuItem.Text = "External Training Insititute";
+            this.externalTrainingInsitituteToolStripMenuItem.Click += new System.EventHandler(this.externalTrainingInsitituteToolStripMenuItem_Click);
             // 
             // externalTrainingRegistrationToolStripMenuItem
             // 
             this.externalTrainingRegistrationToolStripMenuItem.Name = "externalTrainingRegistrationToolStripMenuItem";
             this.externalTrainingRegistrationToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
             this.externalTrainingRegistrationToolStripMenuItem.Text = "External Training Registration";
+            this.externalTrainingRegistrationToolStripMenuItem.Click += new System.EventHandler(this.externalTrainingRegistrationToolStripMenuItem_Click);
             // 
             // closeToolStripMenuItem
             // 
@@ -528,6 +543,7 @@
             this.assessorToolStripMenuItem1.Name = "assessorToolStripMenuItem1";
             this.assessorToolStripMenuItem1.Size = new System.Drawing.Size(162, 22);
             this.assessorToolStripMenuItem1.Text = "Assessor";
+            this.assessorToolStripMenuItem1.Click += new System.EventHandler(this.assessorToolStripMenuItem1_Click);
             // 
             // courseDirectorToolStripMenuItem1
             // 
@@ -541,18 +557,21 @@
             this.internalTrainingToolStripMenuItem.Name = "internalTrainingToolStripMenuItem";
             this.internalTrainingToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.internalTrainingToolStripMenuItem.Text = "Internal Training";
+            this.internalTrainingToolStripMenuItem.Click += new System.EventHandler(this.internalTrainingToolStripMenuItem_Click);
             // 
             // externalTrainingToolStripMenuItem
             // 
             this.externalTrainingToolStripMenuItem.Name = "externalTrainingToolStripMenuItem";
             this.externalTrainingToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.externalTrainingToolStripMenuItem.Text = "External Training";
+            this.externalTrainingToolStripMenuItem.Click += new System.EventHandler(this.externalTrainingToolStripMenuItem_Click);
             // 
             // resourcePersonToolStripMenuItem1
             // 
             this.resourcePersonToolStripMenuItem1.Name = "resourcePersonToolStripMenuItem1";
             this.resourcePersonToolStripMenuItem1.Size = new System.Drawing.Size(162, 22);
             this.resourcePersonToolStripMenuItem1.Text = "Resource Person";
+            this.resourcePersonToolStripMenuItem1.Click += new System.EventHandler(this.resourcePersonToolStripMenuItem1_Click);
             // 
             // WelCome
             // 
