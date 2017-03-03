@@ -22,7 +22,12 @@ namespace student_management_system
 
         }
 
-        private void traineeToolStripMenuItem_Click(object sender, EventArgs e)
+       /* private void traineeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+        }*/
+
+        private void traineeToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             frm_newtraregnav ntr = new frm_newtraregnav();
             ntr.Show();
