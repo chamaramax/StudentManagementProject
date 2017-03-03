@@ -31,5 +31,10 @@ namespace student_management_system
         {
 
         }
+
+        private void btn_sav_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

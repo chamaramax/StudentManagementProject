@@ -33,5 +33,12 @@ namespace student_management_system
             ntr.Show();
             this.Hide();
         }
+
+        private void courseDirectorToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            CouDirReg cr = new CouDirReg();
+            cr.Show();
+            this.Hide();
+        }
     }
 }
