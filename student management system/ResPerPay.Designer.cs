@@ -1,6 +1,6 @@
 ﻿namespace student_management_system
 {
-    partial class Form1
+    partial class resorsperson
     {
         /// <summary>
         /// Required designer variable.
@@ -157,7 +157,7 @@
             this.dtp_paymntdate.Size = new System.Drawing.Size(192, 20);
             this.dtp_paymntdate.TabIndex = 12;
             // 
-            // Form1
+            // resorsperson
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -175,7 +175,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "Form1";
+            this.Name = "resorsperson";
             this.Text = "Resource Person Payment";
             this.ResumeLayout(false);
             this.PerformLayout();

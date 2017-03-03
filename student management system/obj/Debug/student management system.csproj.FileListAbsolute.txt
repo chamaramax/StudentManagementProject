@@ -109,7 +109,6 @@ C:\Git\StudentManagementProject\student management system\obj\Debug\student_mana
 C:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.PanelMemDet.resources
 C:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.PanelMemDetNavi.resources
 C:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.ResPerPayNavi.resources
-C:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.Form1.resources
 C:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.ResultDetNavi.resources
 C:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.ResultDet.resources
 C:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.TraineeAtt.resources
@@ -139,3 +138,4 @@ C:\Git\StudentManagementProject\student management system\obj\Debug\student_mana
 C:\Git\StudentManagementProject\student management system\obj\Debug\student management system.csproj.GenerateResource.Cache
 C:\Git\StudentManagementProject\student management system\obj\Debug\student management system.exe
 C:\Git\StudentManagementProject\student management system\obj\Debug\student management system.pdb
+C:\Git\StudentManagementProject\student management system\obj\Debug\student_management_system.resorsperson.resources

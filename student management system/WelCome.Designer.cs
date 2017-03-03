@@ -140,6 +140,7 @@
             this.externalInstituteToolStripMenuItem1.Name = "externalInstituteToolStripMenuItem1";
             this.externalInstituteToolStripMenuItem1.Size = new System.Drawing.Size(161, 22);
             this.externalInstituteToolStripMenuItem1.Text = "External Institute";
+            this.externalInstituteToolStripMenuItem1.Click += new System.EventHandler(this.externalInstituteToolStripMenuItem1_Click);
             // 
             // attendanceToolStripMenuItem
             // 
@@ -157,24 +158,28 @@
             this.traineeToolStripMenuItem1.Name = "traineeToolStripMenuItem1";
             this.traineeToolStripMenuItem1.Size = new System.Drawing.Size(162, 22);
             this.traineeToolStripMenuItem1.Text = "Trainee";
+            this.traineeToolStripMenuItem1.Click += new System.EventHandler(this.traineeToolStripMenuItem1_Click);
             // 
             // assessorToolStripMenuItem3
             // 
             this.assessorToolStripMenuItem3.Name = "assessorToolStripMenuItem3";
             this.assessorToolStripMenuItem3.Size = new System.Drawing.Size(162, 22);
             this.assessorToolStripMenuItem3.Text = "Assessor";
+            this.assessorToolStripMenuItem3.Click += new System.EventHandler(this.assessorToolStripMenuItem3_Click);
             // 
             // resourcePersonToolStripMenuItem3
             // 
             this.resourcePersonToolStripMenuItem3.Name = "resourcePersonToolStripMenuItem3";
             this.resourcePersonToolStripMenuItem3.Size = new System.Drawing.Size(162, 22);
             this.resourcePersonToolStripMenuItem3.Text = "Resource Person";
+            this.resourcePersonToolStripMenuItem3.Click += new System.EventHandler(this.resourcePersonToolStripMenuItem3_Click);
             // 
             // curiculumPanelToolStripMenuItem
             // 
             this.curiculumPanelToolStripMenuItem.Name = "curiculumPanelToolStripMenuItem";
             this.curiculumPanelToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.curiculumPanelToolStripMenuItem.Text = "Curiculum Panel";
+            this.curiculumPanelToolStripMenuItem.Click += new System.EventHandler(this.curiculumPanelToolStripMenuItem_Click);
             // 
             // evaluationToolStripMenuItem
             // 

@@ -188,6 +188,50 @@ namespace student_management_system
 
         private void resourcePersonToolStripMenuItem2_Click(object sender, EventArgs e)
         {
+            resorsperson rp = new resorsperson();
+            rp.Show();
+            this.Hide();
+
+        }
+
+        private void externalInstituteToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            ExternalInsPay etp = new ExternalInsPay();
+            etp.Show();
+            this.Hide();
+
+        }
+
+        private void traineeToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            TraineeAtt ta = new TraineeAtt();
+            ta.Show();
+            this.Hide();
+
+        }
+
+        private void assessorToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            AssAtt aa = new AssAtt();
+            aa.Show();
+            this.Hide();
+
+        }
+
+        private void resourcePersonToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            respersonatten rsa = new respersonatten();
+            rsa.Show();
+            this.Hide();
+
+
+        }
+
+        private void curiculumPanelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CuriPanAttEntScr cpa = new CuriPanAttEntScr();
+            cpa.Show();
+            this.Hide();
 
         }
     }
