@@ -21,5 +21,10 @@ namespace student_management_system
         {
 
         }
+
+        private void btn_sa_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
