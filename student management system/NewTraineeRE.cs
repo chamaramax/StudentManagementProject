@@ -26,5 +26,12 @@ namespace student_management_system
         {
 
         }
+
+        private void btn_cancl_Click(object sender, EventArgs e)
+        {
+            WelCome w = new WelCome();
+            w.Show();
+           this.Hide();
+        }
     }
 }
